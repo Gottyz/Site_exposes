@@ -4,6 +4,17 @@
 
 Le dépôt Git a été initialisé et la branche `main` a été créée. Chaque groupe doit créer une branche dédiée à sa propre présentation avant d'ajouter des fichiers.
 
+## Configuration initiale de Git
+Si c'est votre première utilisation de Git, configurez votre nom et votre e-mail :
+```bash
+git config --global user.name "Votre Nom"
+git config --global user.email "votre.email@example.com"
+```
+Vous pouvez vérifier votre configuration avec :
+```bash
+git config --list
+```
+
 ## Étapes pour travailler avec Git
 
 ### 1. Cloner le dépôt (si ce n'est pas encore fait)
@@ -42,4 +53,7 @@ git push origin nom-de-la-branche
 
 ### 6. Faire une Pull Request (PR)
 Rendez-vous sur GitLab/GitHub pour créer une demande de fusion (Pull Request) et demander l'intégration de votre branche dans `main`.
+
+---
+
 
