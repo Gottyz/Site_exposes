@@ -1,0 +1,64 @@
+/* Les balises du menu */
+menu {position:relative; top:0; z-index: 1; opacity: 0.8;margin:0px}
+
+menu ul {display: flex; background: rgb(214, 112, 29); padding: 20px;list-style: none; margin: 0px} 
+
+menu ul a {font-size: 20px;padding: 20px; color:black; margin: 0px}
+
+menu ul a:hover {background-color: rgb(214, 136, 72); transition: 0.3s;}
+
+/* Les balises des titres et corpus */
+h1 {text-align: center;color :white; background-color: rgb(39, 39, 39);font-family:"Arial"}
+
+h1 strong {color: Orange;}
+
+h2 {text-align: center; background-color: rgb(255, 194, 28);font-family:"Arial"}
+
+h3 {text-align: center; background-color: rgb(255, 194, 28);font-family:"Arial"}
+
+body {background-color: rgb(233, 211, 197);font-family:"Comic Sans MS"}
+
+.encadre {border: 2px solid #4b4a4a;}
+
+.centre {text-align: center;}
+
+strong {text-decoration: underline;}
+
+em {text-decoration: underline;}
+
+.ombre {text-shadow: 2px 2px 2px rgb(221, 221, 221);}
+
+/* Les balises pour les images */
+.agauche {float: left; text-align: center; margin: 0px Opx 0px 0px;}
+.aucentre {float: center; text-align: center; margin: 0px 0px 0px 0px;}
+.adroite {float: right; text-align: center; margin: 0px 0px 0px 0px;}
+
+/* Les balises spéciales pour chaque Bijû */
+.ichibi {background-color: rgb(230, 193, 125); text-align: left; background-image: url(ichibi.png); background-repeat: no-repeat; background-position: right}
+.nibi {background-color: rgb(91, 143, 255); text-align: left; background-image: url(nibi.jpg); background-repeat: no-repeat; background-position: right}
+.sanbi {background-color: rgb(158, 158, 158); text-align: left; background-image: url(sanbi.jpg); background-repeat: no-repeat; background-position: right}
+.yonbi {background-color:  rgb(228, 41, 41); text-align: left; background-image: url(yonbi.png); background-repeat: no-repeat; background-position: right}
+.gobi {background-color: rgb(231, 230, 228); text-align: left; background-image: url(gobi.png); background-repeat: no-repeat; background-position: right}
+.rokubi {background-color: rgb(255, 190, 248); text-align: left; background-image: url(rokubi.png); background-repeat: no-repeat; background-position: right}
+.nanabi {background-color: rgb(179, 255, 0); text-align: left; background-image: url(nanabi.png); background-repeat: no-repeat; background-position: right}
+.hachibi {color: white ; background-color: rgb(128, 72, 72);text-align: left; background-image: url(hachibi.png); background-repeat: no-repeat; background-position: right}
+.kyubi {background-color: rgb(206, 104, 36); text-align: left; background-image: url(kuybi.png); background-repeat: no-repeat; background-position: right}
+
+/* <div class="adroite4"><img src="sanbi.jpg" alt="Sanbi"> <br> <em> Shukaku, le démon tanuki à une queue.</em>
+        </div> 
+          <div class="adroite3"><img src="nibi.jpg" alt="Nibi"> <br> <em> Matatabi, le démon chat à deux queues.</em>
+        </div>
+          <div class="adroite2"><img src="ichibi.png" alt="Ichibi"> <br> <em> Shukaku, le démon tanuki à une queue.</em>
+        </div>
+         <div class="adroite5"><img src="yonbi.jpg" alt="Yonbi"> <br> <em> Son Gokû, le démon singe à quatre queues.</em>
+        </div> 
+        <div class="adroite2"><img src="gobi.png" alt="gobi"> <br> <em> Kokuô, le démon cheval-dauphin à cinq
+                queues.</em>
+        </div>
+        <div class="adroite3"><img src="rokubi.png" alt="rokubi"> <br> <em> Saiken, le démon limace à six queues.</em>
+        </div>
+         <div class="adroite4"><img src="nanabi.png" alt="Nanabi"> <br> <em> Chômei, le démon insecte à sept queues.</em>
+        </div>
+          <div class="adroite6"><img src="kyubi.png" alt="Kyubi"> <br> <em> Kurama, le démon renard à neuf queues.</em>
+        </div>
+        */
